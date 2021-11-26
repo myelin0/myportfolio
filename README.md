@@ -17,7 +17,7 @@
 
 - GitHub: [@myelin0](https://github.com/myelin0)
 - Twitter: [@Amy_Albania](https://twitter.com/Amy_albania)
-- LinkedIn: [@Emirjeta Veisllari](www.linkedin.com/in/emirjeta-veisllari-aa5b71222)
+- LinkedIn: [@Emirjeta Veisllari](https://www.linkedin.com/in/emirjeta-veisllari/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
