@@ -117,8 +117,8 @@ p {
   text-decoration: underline;
 }
 
-.d-grid{
-  display:grid;
+.d-grid {
+  display: grid;
   grid-template-columns: auto;
 }
 
