@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Space+Mono&display=swap');
 
+* {
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
 .headline {
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+  border-bottom-left-radius: 60px;
+  padding-bottom: 64px;
 }
 
 .nav-bar {
-  background-color: transparent;
+  background-color: white;
   margin-top: 44px;
   height: 48px;
   display: flex;
@@ -57,6 +66,15 @@ p {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+}
+
+.intro {
+  color: #344563;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
   margin: 12px 0;
   margin: 0 24px;
   width: 327px;
@@ -94,12 +112,206 @@ p {
   height: 20px;
 }
 
-.social li:hover,
-.menu-button:hover {
-  background-color: rgb(63, 16, 192);
-}
-
 .logo:hover,
 .headline:hover {
   text-decoration: underline;
+}
+
+main {
+  /* display:grid; */
+
+  /* grid-template-columns:88px; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 552px;
+  background-color: #fff;
+  margin: 88px 0;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.canopy-li {
+  list-style: none;
+  color: #344563;
+  font-size: 18px;
+}
+
+.canopy {
+  display: flex;
+}
+
+.common {
+  color: #6b778c;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+h4 {
+  color: #344563;
+}
+
+.year {
+  display: flex;
+  list-style-type: disc;
+  color: #7a869a;
+}
+
+.year li {
+  list-style-type: disc;
+}
+
+ul.year {
+  list-style-type: circle;
+}
+
+ul.languages-btn {
+  margin-left: 0;
+}
+
+li button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  letter-spacing: 3%;
+}
+
+.languages-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  height: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.card-p {
+  margin-top: 12px;
+  margin-left: 0;
+}
+
+.big-btn {
+  width: 124px;
+  height: 48px;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 16px;
+  padding: 12px;
+  text-align: center;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  height: 101px;
+  padding-top: 114px;
+  margin-bottom: 12px;
+}
+
+.about-me {
+  background-color: #fff;
+  border-top-right-radius: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-p {
+  color: #344563;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 327px;
+  height: 146px;
+  margin-top: 12px;
+}
+
+.back-end {
+  list-style-type: disc;
+}
+
+.social-icons {
+  margin: 0;
+}
+
+.about-btn {
+  width: auto;
+}
+
+.lang {
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.myself {
+  padding-left: 12px;
+}
+
+.lang-png {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 36px;
+}
+
+.line {
+  border-bottom: solid 1px #dfe1e6;
+  padding: 23px 36px;
+}
+
+.about-div {
+  padding-left: 36px;
+}
+
+.union-down {
+  margin-right: 33px;
+}
+
+.social li:hover,
+.menu-button:hover {
+  background-color: rgb(63, 16, 192);
 }
