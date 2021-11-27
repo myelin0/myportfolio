@@ -117,10 +117,9 @@ p {
   text-decoration: underline;
 }
 
-main {
-  /* display:grid; */
-
-  /* grid-template-columns:88px; */
+.d-grid{
+  display:grid;
+  grid-template-columns: auto;
 }
 
 .card {
