@@ -5,8 +5,14 @@
   margin: 0;
 }
 
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   background-color: #e5e5e5;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .headline {
@@ -104,7 +110,7 @@ p {
   width: 170.17px;
   list-style: none;
   padding-inline-start: 0;
-  margin-left: 24px;
+  margin: 12px 24px;
   height: 20px;
 }
 
@@ -116,6 +122,7 @@ p {
 .d-grid {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
 }
 
 .card {
@@ -142,16 +149,19 @@ h3 {
 .canopy-li {
   list-style: none;
   color: #344563;
-  font-size: 18px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
 }
 
 .canopy {
   display: flex;
+  align-items: baseline;
 }
 
 .common {
   color: #6b778c;
-  font-size: 18px;
+  font-size: 13px;
   margin-left: 30px;
 }
 
@@ -174,7 +184,7 @@ ul.year {
 }
 
 ul.languages-btn {
-  margin-left: 0;
+  margin: 16px 0;
 }
 
 li button {
@@ -221,7 +231,7 @@ li button {
   border-radius: 16px;
   padding: 12px;
   text-align: center;
-  margin: 0;
+  margin: 26px 0;
   background-color: rgba(255, 255, 255, 0);
 }
 
@@ -284,7 +294,7 @@ h5 {
 }
 
 .social-icons {
-  margin: 0;
+  margin: 20px 0;
 }
 
 .about-btn {
