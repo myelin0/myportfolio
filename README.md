@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio
 
-> This project is the first step in building a profesional developer portfolio. We start by seting it up and building the mobile version skeleton.
+> This project is meant for building a profesional developer portfolio for future employers to evaluate my coding skills.
 
 ![screenshot](images/Portfolio1.png)
 
