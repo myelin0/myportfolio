@@ -390,6 +390,9 @@ form {
 
 textarea {
   flex: 2;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .form-btn {
