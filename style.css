@@ -335,3 +335,88 @@ h5 {
 .menu-button:hover {
   background-color: rgb(63, 16, 192);
 }
+
+.contact-form {
+  background-image: url("images/contact-form-bg.png");
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: 98% 19%;
+  background-size: 265px 709.17px;
+  border-top-left-radius: 90px;
+  width: 375px;
+  height: 779px;
+}
+
+.form-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+  padding-top: 103px;
+  text-align: center;
+}
+
+#form-par {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  min-height: 102px;
+  width: 327px;
+  margin: 12px 24px 12px 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.inp {
+  height: 48px;
+  margin: 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-left: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 50%;
+  margin: 20px 24px 20px 24px;
+}
+
+textarea {
+  flex: 2;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-btn {
+  width: max-content;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #6070ff;
+
+  /* margin-top:12px; */
+  padding: 12px 10px;
+}
+
+.form-btn:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+.form-btn:active {
+  color: white;
+  background-color: #2230d2;
+}
+
+.form-btn:disabled {
+  background-color: white;
+  color: #5e6c84;
+}
