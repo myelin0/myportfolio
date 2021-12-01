@@ -363,11 +363,8 @@ h5 {
   line-height: 28px;
   min-height: 102px;
   width: 327px;
-  margin-top: 12px;
-  margin-bottom: 12px;
   margin: 12px 24px 12px 24px;
   text-align: center;
-  margin: auto;
   padding-top: 20px;
 }
 
@@ -420,5 +417,3 @@ textarea {
   background-color: white;
   color: #5e6c84;
 }
-
-
