@@ -23,3 +23,12 @@ body {
 .card:hover {
   box-shadow: 4px 6px 10px rgb(206, 7, 40);
 }
+
+.big-btn {
+  transition-property: outline;
+  transition-delay: 0s;
+}
+
+.big-btn:hover {
+  outline: 3px outset orange;
+}
