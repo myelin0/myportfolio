@@ -122,7 +122,6 @@ h6 {
   margin: 12px 0;
   height: 20px;
   color: #505f79;
-  padding-bottom: 200px;
 }
 
 .logo:hover,
@@ -341,6 +340,7 @@ h5 {
 
 .about-btn {
   width: auto;
+  margin-bottom: 100px;
 }
 
 .lang {
@@ -350,7 +350,7 @@ h5 {
 }
 
 .myself {
-  padding-left: 12px;
+  padding-left: 130px;
   width: 40%;
 }
 
@@ -369,6 +369,8 @@ h5 {
 
 .about-div {
   padding-left: 36px;
+  width: 60%;
+  padding-right: 130px;
 }
 
 .union-down {
