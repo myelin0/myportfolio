@@ -102,7 +102,7 @@ h1 {
 }
 
 h2.connect,
-h6 {
+h5 {
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
@@ -304,7 +304,7 @@ li button {
   display: none;
 }
 
-h5 {
+h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
