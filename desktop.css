@@ -236,8 +236,6 @@ li button {
 }
 
 .big-btn {
-  width: 124px;
-  height: 48px;
   color: #396df2;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -309,8 +307,6 @@ h4 {
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
-  width: 327px;
-  height: 101px;
   padding-top: 114px;
   margin-bottom: 12px;
 }
@@ -332,7 +328,6 @@ h4 {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  height: 146px;
   margin-top: 12px;
 }
 
@@ -460,6 +455,7 @@ textarea {
   margin-top: 12px;
   margin-bottom: 100px;
   padding: 12px 10px;
+  height:3em;
 }
 
 .form-btn:hover {
@@ -541,13 +537,13 @@ textarea {
   margin: 0 12px;
 }
 
-/* .languages {
-  width: 414px;
-
-} */
-
 .langtext {
   padding-top: 16px;
   line-height: 24px;
   color: #253858;
+}
+
+.jav {
+  padding-right:51px;
+  margin-right:12px;
 }
