@@ -168,10 +168,6 @@ h3 {
   margin-left: 30px;
 }
 
-h4 {
-  color: #344563;
-}
-
 li {
   list-style: none;
 }
@@ -274,6 +270,7 @@ h4 {
   height: 101px;
   padding-top: 114px;
   margin-bottom: 12px;
+  color: #344563;
 }
 
 .about-me {

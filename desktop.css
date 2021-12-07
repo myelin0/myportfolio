@@ -182,10 +182,6 @@ h3 {
   margin-right: 12px;
 }
 
-h4 {
-  color: #344563;
-}
-
 .year {
   display: flex;
   list-style-type: disc;
@@ -309,6 +305,7 @@ h4 {
   line-height: 52px;
   padding-top: 114px;
   margin-bottom: 12px;
+  color: #344563;
 }
 
 .about-me {
@@ -455,7 +452,7 @@ textarea {
   margin-top: 12px;
   margin-bottom: 100px;
   padding: 12px 10px;
-  height:3em;
+  height: 3em;
 }
 
 .form-btn:hover {
@@ -544,6 +541,6 @@ textarea {
 }
 
 .jav {
-  padding-right:51px;
-  margin-right:12px;
+  padding-right: 45px;
+  margin-right: 12px;
 }
