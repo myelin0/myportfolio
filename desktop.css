@@ -44,7 +44,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #6070ff;
+  color: #142cff;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -103,7 +103,7 @@ h1 {
 
 h2.connect,
 h5 {
-  color: #7f8cff;
+  color: #0f27ff;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -213,7 +213,7 @@ li button {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0015fa;
   border: none;
   border-radius: 8px;
   padding: 4px 12px;
@@ -390,7 +390,7 @@ h4 {
 
 .contact-form {
   background-image: url("images/contact-form-D-bg.png");
-  background-color: #6070ff;
+  background-color: #4d5eff;
   background-repeat: no-repeat;
   background-position: 33% 54%;
   border-top-left-radius: 90px;
@@ -454,7 +454,7 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-  color: #6070ff;
+  color: #001aff;
   align-self: center;
   border-radius: 8px;
   margin-top: 12px;
