@@ -49,7 +49,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #6070ff;
+  color: #142cff;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -93,7 +93,7 @@ p {
 }
 
 .connect {
-  color: #7f8cff;
+  color: #0f27ff;
   margin: 12px 24px 12px 24px;
   height: 24px;
   font-family: Poppins, 'Times New Roman', Times, serif;
@@ -166,10 +166,6 @@ h3 {
   color: #6b778c;
   font-size: 13px;
   margin-left: 30px;
-}
-
-h4 {
-  color: #344563;
 }
 
 li {
@@ -263,7 +259,7 @@ li button {
   align-items: flex-start;
 }
 
-h5 {
+h4 {
   font-family: 'Poppins', sans-serif;
   font-family: 'Space Mono', monospace;
   font-weight: 700;
@@ -274,6 +270,7 @@ h5 {
   height: 101px;
   padding-top: 114px;
   margin-bottom: 12px;
+  color: #344563;
 }
 
 .about-me {
@@ -407,7 +404,7 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-  color: #6070ff;
+  color: #4f4f4f;
   padding: 12px 10px;
 }
 

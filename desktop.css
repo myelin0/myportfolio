@@ -44,7 +44,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #6070ff;
+  color: #142cff;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -102,8 +102,8 @@ h1 {
 }
 
 h2.connect,
-h6 {
-  color: #7f8cff;
+h5 {
+  color: #0f27ff;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -182,10 +182,6 @@ h3 {
   margin-right: 12px;
 }
 
-h4 {
-  color: #344563;
-}
-
 .year {
   display: flex;
   list-style-type: disc;
@@ -213,7 +209,7 @@ li button {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0015fa;
   border: none;
   border-radius: 8px;
   padding: 4px 12px;
@@ -302,13 +298,14 @@ li button {
   display: none;
 }
 
-h5 {
+h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
   padding-top: 114px;
   margin-bottom: 12px;
+  color: #344563;
 }
 
 .about-me {
@@ -385,7 +382,7 @@ h5 {
 
 .contact-form {
   background-image: url("images/contact-form-D-bg.png");
-  background-color: #6070ff;
+  background-color: #4d5eff;
   background-repeat: no-repeat;
   background-position: 33% 54%;
   border-top-left-radius: 90px;
@@ -449,13 +446,13 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-  color: #6070ff;
+  color: #001aff;
   align-self: center;
   border-radius: 8px;
   margin-top: 12px;
   margin-bottom: 100px;
   padding: 12px 10px;
-  height:3em;
+  height: 3em;
 }
 
 .form-btn:hover {
@@ -537,11 +534,6 @@ textarea {
   margin: 0 12px;
 }
 
-/* .languages {
-  width: 414px;
-
-} */
-
 .langtext {
   padding-top: 16px;
   line-height: 24px;
@@ -549,6 +541,6 @@ textarea {
 }
 
 .jav {
-  margin-right:12px;
-padding-right:51px;
+  margin-right: 12px;
+  padding-right: 45px;
 }
