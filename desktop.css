@@ -25,6 +25,10 @@ body {
   position: fixed;
 }
 
+.design-menu {
+  display: none;
+}
+
 .menu-links {
   padding-right: 100px;
 }
@@ -543,4 +547,8 @@ textarea {
 .jav {
   margin-right: 12px;
   padding-right: 45px;
+}
+
+.mbylle {
+  display: none;
 }
