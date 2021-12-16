@@ -47,7 +47,7 @@ body {
   display: none;
 }
 
-.menu-links.show {
+.design-menu {
   display: flex;
   flex-direction: column;
   background: #6070ff;
@@ -62,7 +62,7 @@ body {
   bottom: 0;
 }
 
-.link {
+.design-menu .link {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
 }
 
-.menu-links.show img {
+.design-menu .closebtn {
   width: 14px;
   height: 14px;
   position: absolute;
@@ -83,6 +83,10 @@ body {
   padding-left: 80%;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+
+.invisible {
+  display: none;
 }
 
 .logo {

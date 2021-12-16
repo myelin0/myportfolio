@@ -1,26 +1,18 @@
 const hamburger = document.querySelector('.menu-button');
 const closebtn = document.querySelector('.closebtn');
-const navmenu = document.querySelector('.menu-links');
-const navportal = document.querySelector('.po');
-const navabout = document.querySelector('.ab');
-const navcontact = document.querySelector('.co');
+const navmenu = document.querySelector('.design-menu');
+const link = document.querySelectorAll('.link');
 
 hamburger.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
+  navmenu.classList.remove('invisible');
 });
 
 closebtn.addEventListener('click', () => {
-  navmenu.style.display = 'none';
+  navmenu.classList.add('invisible');
 });
 
-navportal.addEventListener('click', () => {
-  navmenu.style.display = 'none';
-});
-
-navabout.addEventListener('click', () => {
-  navmenu.style.display = 'none';
-});
-
-navcontact.addEventListener('click', () => {
-  navmenu.style.display = 'none';
-});
+for (let i = 0; i < link.length; i += 1) {
+  link[i].addEventListener('click', () => {
+    navmenu.classList.add('invisible');
+  });
+}
