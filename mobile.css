@@ -47,7 +47,7 @@ body {
 }
 
 .design-menu {
-  position:fixed;
+  position: fixed;
   display: flex;
   flex-direction: column;
   background: #6070ff;
