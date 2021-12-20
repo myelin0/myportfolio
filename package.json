@@ -574,7 +574,11 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.3",
+<<<<<<< HEAD
     "hint": "^6.1.9",
+=======
+    "hint": "^6.1.8",
+>>>>>>> a40d2bc0b80911a616401603eacbbcbdf065138b
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
