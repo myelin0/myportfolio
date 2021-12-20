@@ -10,13 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8DCQ62P8J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-W8DCQ62P8J');
-</script>
+    gtag('config', 'G-W8DCQ62P8J');
+  </script>
   <title>Portfolio</title>
 </head>
 
@@ -24,12 +24,18 @@
 
   <header class="nav-bar">
     <a class="logo" href="#">My logo</a>
-    <a class="menu-button" href="#"><img src="./images/Menu.png" alt="Hamburger Menu"></a>
+    <a class="menu-button show " href="#"><img src="./images/Menu.png" alt="Hamburger Menu"></a>
     <nav class="menu-links">
       <a href="#Portfolio">Portfolio</a>
       <a href="#About">About</a>
       <a href="#Contact">Contact</a>
     </nav>
+    <div class="design-menu invisible">
+      <img src="images/closebtn.png" alt="close btn" class="closebtn">
+      <a class="link" href="#Portfolio">Portfolio</a>
+      <a class="link" href="#About">About</a>
+      <a class="link" href="#Contact">Contact</a>
+    </div>
 
   </header>
 
@@ -55,7 +61,7 @@
     <section>
       <ul id="Portfolio" class="d-grid">
 
-        <li class="card card1">
+        <li class="card mbylle card1">
           <img class="photoshoot-1" src="images/Snapshoot1.png" alt="My projects snapshot">
           <img class="photoshoot-D-1" src="images/Snapshoot-D-122kb.png" alt="">
           <div class="card-info">
@@ -75,11 +81,11 @@
               <li class="btn"><button>javascript</button></li>
             </ul>
             <button type="button" class="big-btn">See Project</button>
-          </div>
+          </div> 
         </li>
         <li class="card card4 swap">
           <img class="photoshoot-2" src="images/Snapshoo2.png" alt="My projects snapshot">
-          <img class="photoshoot-D-2" src="images/Snapshoot-D-2.png"  alt="">
+          <img class="photoshoot-D-2" src="images/Snapshoot-D-2.png" alt="">
           <div class="card-info ">
             <h3 id="mob">Multi-Post<br>
               Stories</h3>
@@ -95,9 +101,10 @@
               <li class="common">Lead Developer</li>
               <li class="common">2018</li>
             </ul>
-            
+
             <p class="card-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <p class="fcb-p">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+            <p class="fcb-p">A smart assistant to make driving more safe, efficient, and fun by unlocking your most
+              expensive computer: your car.</p>
             <ul class="languages-btn">
               <li class="btn"><button>html</button></li>
               <li class="btn ruby"><button>Ruby on Rails</button></li>
@@ -125,8 +132,9 @@
               <li class="common">2015</li>
             </ul>
             <p class="card-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <p class="fcb-p">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and
-            videos on Gear VR.</p>
+            <p class="fcb-p">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover
+              and enjoy 360 photos and
+              videos on Gear VR.</p>
             <ul class="languages-btn">
               <li class="btn"><button>html</button></li>
               <li class="btn ruby"><button>Ruby on Rails</button></li>
@@ -143,19 +151,20 @@
           <div class="card-info D-4">
             <h3>Multi-Post<br class="br4">
               Stories</h3>
-              <ul class="canopy">
-                <li class="canopy-li">CANOPY</li>
-                <li class="common">Back End Dev</li>
-                <li class="common">2015</li>
-              </ul>
-              <ul class="facebook">
-                <li class="canopy-li">FACEBOOK</li>
-                <li class="common">Fullstack Dev</li>
-                <li class="common">2015</li>
-              </ul>
+            <ul class="canopy">
+              <li class="canopy-li">CANOPY</li>
+              <li class="common">Back End Dev</li>
+              <li class="common">2015</li>
+            </ul>
+            <ul class="facebook">
+              <li class="canopy-li">FACEBOOK</li>
+              <li class="common">Fullstack Dev</li>
+              <li class="common">2015</li>
+            </ul>
             <p class="card-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <p class="fcb-p">Experimental content creation feature that allows users to add to an existing story over the course of a day without
-            spamming their friends.</p>
+            <p class="fcb-p">Experimental content creation feature that allows users to add to an existing story over
+              the course of a day without
+              spamming their friends.</p>
             <ul class="languages-btn">
               <li class="btn"><button>html</button></li>
               <li class="btn ruby"><button>Ruby on Rails</button></li>
@@ -163,71 +172,71 @@
               <li class="btn"><button>javascript</button></li>
             </ul>
             <button type="button" class="big-btn">See Project</button>
-            
+
           </div>
         </li>
-
       </ul>
+
     </section>
 
 
     <section id="About" class="about-me">
-        <div class="myself">
-          <h4>About <br>Myself</h4>
-          <p class="about-p">Hello I’m a software developer! I can help you build a product , feature or website Look
-            through some of my work and experience! If you like what you see and have a project you need coded, don’t
-            hestiate to contact me.</p>
-          <h5 class="connect social-icons">LET`S CONNECT</h5>
-          <address>
-            <ul class="social">
-              <li><a href="#"><img src="images/twitter.svg" alt="twitter icon"></a></li>
-              <li><a href="#"><img src="images/Linkedin-icon.svg" alt="Linkedin icon"></a></li>
-              <li><a href="#"><img src="images/github.svg" alt="Github Icon"></a></li>
-              <li><a href="#"><img src="images/M.svg" alt="Medium icon"></a></li>
-              <li><a href="#"><img src="images/angel.svg" alt="angellist icon"></a></li>
-            </ul>
-          </address>
-          <button class="big-btn about-btn">Get my resume</button>
-        </div>
-        
-          <ul class="knowledge about-div">
-            <li class=" header languages lang">
-              <div class="lang-png">
-                Languages
-                <img class="union-down" src="images/Union.png" alt="">
-              </div>
-            </li>
-            <li>
-               <img class="disable" src="images/Langguage-List.png " alt="Languages list Javascript,html,css">
-            </li>
-            <li class="lang-styles jav disable-mob">
-              
-              <div class="disable-mob langicon "><img class="disable-mob" src="images/js-icon.png " alt="Javascript"></div>
-              <div class="disable-mob jav langtext">Javascript</div>
-            </li>
-            <li class="lang-styles disable-mob">
-              <div class="disable-mob langicon "><img class="disable-mob" src="images/Html-icon.png" alt="HTML"></div>
-              <div class="disable-mob langtext">HTML</div>
-            </li>
-            <li class="lang-styles disable-mob">
-              <div class="disable-mob langicon"><img class="disable-mob" src="images/Css-icon.png" alt="CSS"></div>
-              <div class="disable-mob langtext">Css</div>
-            </li>
-            
-            
-            <li class="frameworks lang">
-              <div class="lang-png line">
-                Frameworks
-                <img src="images/right-arrow.png" alt="">
-              </div>
-            </li>
-            <li class="skills lang">
-              <div class="lang-png line"> Skills
-                <img src="images/right-arrow.png" alt="">
-              </div>
-            </li>
-
+      <div class="myself">
+        <h4>About <br>Myself</h4>
+        <p class="about-p">Hello I’m a software developer! I can help you build a product , feature or website Look
+          through some of my work and experience! If you like what you see and have a project you need coded, don’t
+          hestiate to contact me.</p>
+        <h5 class="connect social-icons">LET`S CONNECT</h5>
+        <address>
+          <ul class="social">
+            <li><a href="#"><img src="images/twitter.svg" alt="twitter icon"></a></li>
+            <li><a href="#"><img src="images/Linkedin-icon.svg" alt="Linkedin icon"></a></li>
+            <li><a href="#"><img src="images/github.svg" alt="Github Icon"></a></li>
+            <li><a href="#"><img src="images/M.svg" alt="Medium icon"></a></li>
+            <li><a href="#"><img src="images/angel.svg" alt="angellist icon"></a></li>
           </ul>
+        </address>
+        <button class="big-btn about-btn">Get my resume</button>
+      </div>
+
+      <ul class="knowledge about-div">
+        <li class=" header languages lang">
+          <div class="lang-png">
+            Languages
+            <img class="union-down" src="images/Union.png" alt="">
+          </div>
+        </li>
+        <li>
+          <img class="disable" src="images/Langguage-List.png " alt="Languages list Javascript,html,css">
+        </li>
+        <li class="lang-styles jav disable-mob">
+
+          <div class="disable-mob langicon "><img class="disable-mob" src="images/js-icon.png " alt="Javascript"></div>
+          <div class="disable-mob jav langtext">Javascript</div>
+        </li>
+        <li class="lang-styles disable-mob">
+          <div class="disable-mob langicon "><img class="disable-mob" src="images/Html-icon.png" alt="HTML"></div>
+          <div class="disable-mob langtext">HTML</div>
+        </li>
+        <li class="lang-styles disable-mob">
+          <div class="disable-mob langicon"><img class="disable-mob" src="images/Css-icon.png" alt="CSS"></div>
+          <div class="disable-mob langtext">Css</div>
+        </li>
+
+
+        <li class="frameworks lang">
+          <div class="lang-png line">
+            Frameworks
+            <img src="images/right-arrow.png" alt="">
+          </div>
+        </li>
+        <li class="skills lang">
+          <div class="lang-png line"> Skills
+            <img src="images/right-arrow.png" alt="">
+          </div>
+        </li>
+
+      </ul>
     </section>
 
     <section id="Contact" class="contact-form">
@@ -249,6 +258,7 @@
     </section>
 
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>

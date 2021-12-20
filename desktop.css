@@ -25,6 +25,10 @@ body {
   position: fixed;
 }
 
+.design-menu {
+  display: none;
+}
+
 .menu-links {
   padding-right: 100px;
 }
@@ -323,7 +327,7 @@ h4 {
   font-family: Poppins, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 24px;
   margin-top: 12px;
 }
@@ -541,6 +545,10 @@ textarea {
 }
 
 .jav {
-  padding-right: 45px;
   margin-right: 12px;
+  padding-right: 45px;
+}
+
+.mbylle {
+  display: none;
 }
