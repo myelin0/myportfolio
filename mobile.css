@@ -510,3 +510,20 @@ h3.uber {
 .disable-mob {
   display: none;
 }
+
+#show-error {
+  display: none;
+}
+
+.error {
+  color: crimson;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  display: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  text-align: center;
+  animation: show-msg 1s 1;
+  margin-top: -2rem;
+  margin-bottom: 0.4rem;
+}

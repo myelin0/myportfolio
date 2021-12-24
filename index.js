@@ -16,3 +16,24 @@ for (let i = 0; i < link.length; i += 1) {
     navmenu.classList.add('invisible');
   });
 }
+
+/// form validation///
+
+const errorMessage = document.getElementById('show-error');
+const form = document.forms['contact-form'];
+const mail = form.email;
+const LowerCase = (str) => /[a-z]/.test(str) && !/[A-Z]/.test(str);
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = mail.value;
+  if (!LowerCase(email)) {
+    errorMessage.style.display = 'block';
+    setTimeout(() => {
+      errorMessage.style.display = 'none';
+    }, 3000);
+  } else {
+    errorMessage.style.display = 'none';
+    form.submit();
+  }
+});
