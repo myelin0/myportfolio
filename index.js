@@ -11,7 +11,7 @@ closebutton.addEventListener('click', () => {
   navmenu.classList.add('invisible');
 });
 
-for (let i = 0; i < link.length; i += 1) {
+for ( i = 0; i < link.length; i += 1) {
   link[i].addEventListener('click', () => {
     navmenu.classList.add('invisible');
   });
