@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.menu-button');
-const closebtn = document.querySelector('.closebtn');
+const closebutton = document.querySelector('.closebtn');
 const navmenu = document.querySelector('.design-menu');
 const link = document.querySelectorAll('.link');
 
@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
   navmenu.classList.remove('invisible');
 });
 
-closebtn.addEventListener('click', () => {
+closebutton.addEventListener('click', () => {
   navmenu.classList.add('invisible');
 });
 
