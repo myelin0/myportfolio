@@ -17,7 +17,7 @@ body {
 
 .card {
   transition-property: box-shadow;
-  transition-delay: 0.7s;
+  transition-delay: 0.8s;
 }
 
 .card:hover {
@@ -31,4 +31,221 @@ body {
 
 .big-btn:hover {
   outline: 3px outset orange;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.158);
+  backdrop-filter: blur(0.6rem);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.card-tags {
+  display: flex;
+}
+
+.line {
+  border-bottom: solid 1px #dfe1e6;
+  padding: 8px 36px;
+  margin-bottom: 2rem;
+}
+
+.popup-btn {
+  font-size: 12px;
+  text-decoration: none;
+  color: #396df2;
+  border: 0.1rem solid #6070ff;
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  transition: all 0.3s;
+  margin: 2rem 0.5rem;
+}
+
+.popup-btn span i {
+  font-size: 20px;
+  padding-left: 0.5rem;
+}
+
+.popup-btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.popup-btn:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.popup-btn:disabled {
+  background-color: white;
+  color: #5e6c84;
+}
+
+.close-button {
+  align-self: flex-end;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgb(49, 48, 48);
+  background: #cdcecd;
+  margin: 5px;
+}
+
+/* ********************************* */
+
+.overlay-background {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(23, 45, 245, 0.69);
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  text-align: left;
+}
+
+.overlay-background a {
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+}
+
+.overlay-background .closeIcon {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.modal {
+  font-size: 12px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 1200px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 30px;
+  color: gray;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-list {
+  padding-left: 20px;
+  margin-top: 14px;
+  display: flex;
+  align-items: baseline;
+}
+
+.modal-list li {
+  list-style: none;
+  color: #344563;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.btn-img {
+  margin-left: 8px;
+  margin-bottom: -3px;
+}
+
+/* .modal-img {
+  width: 95%;
+  height:auto;
+  padding-left: 2.5%;
+} */
+
+#btn-modal {
+  color: #396df2;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  transition: background-color 2s;
+}
+
+#btn-modal:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+#btn-modal:active {
+  background-color: #2230d2;
+  color: #fff;
 }
