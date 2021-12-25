@@ -573,31 +573,31 @@ h3.uber {
 
   /* height: fit-content; */
 }
-  .bigScreen {
-    display: inherit;
-  }
 
-  .photoshoot1 {
-    height: 15rem;
-    object-fit: cover;
-    margin-top: 0.5em;
-    margin-bottom: 0.7em;
-  }
+.bigScreen {
+  display: inherit;
+}
 
-  .modal-list {
-    padding-left: 20px;
-    margin-top: 14px;
-    display: flex;
-    align-items: baseline;
-  }
+.photoshoot1 {
+  height: 15rem;
+  object-fit: cover;
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+}
 
-  .skills-modal {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    list-style: none;
-    height: 24px;
-    margin-top: 10px;
-    margin-bottom: 24px;
-  }
+.modal-list {
+  padding-left: 20px;
+  margin-top: 14px;
+  display: flex;
+  align-items: baseline;
+}
 
+.skills-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  height: 24px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
