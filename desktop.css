@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Space+Mono&display=swap");
 
 * {
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -23,10 +23,6 @@ body {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-}
-
-.design-menu {
-  display: none;
 }
 
 .menu-links {
@@ -81,7 +77,7 @@ body {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 48px;
@@ -155,27 +151,13 @@ h5 {
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #091e42;
   margin-bottom: 0;
   padding-top: 48px;
-}
-
-.canopy-li {
-  list-style: none;
-  color: #344563;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 500;
-  margin-right: 12px;
-}
-
-.canopy {
-  display: flex;
-  align-items: baseline;
 }
 
 .common {
@@ -209,7 +191,7 @@ ul.languages-btn {
 }
 
 li button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -237,7 +219,7 @@ li button {
 
 .big-btn {
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -324,7 +306,7 @@ h4 {
 
 .about-p {
   color: #344563;
-  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-family: Poppins, "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 100%;
@@ -345,12 +327,6 @@ h4 {
   margin-bottom: 100px;
 }
 
-.lang {
-  font-size: 20px;
-  font-weight: 500;
-  list-style: none;
-}
-
 .myself {
   padding-left: 130px;
   width: 40%;
@@ -364,11 +340,6 @@ h4 {
   width: 100%;
 }
 
-.line {
-  border-bottom: solid 1px #dfe1e6;
-  padding: 23px 36px;
-}
-
 .about-div {
   padding-left: 36px;
   width: 60%;
@@ -377,6 +348,24 @@ h4 {
 
 .union-down {
   margin-right: 33px;
+}
+
+.skills-modal li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 3%;
+}
+
+.works-list-skills li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin: 10px 8px 0 0;
 }
 
 .social li:hover,
@@ -437,7 +426,7 @@ form {
 }
 
 textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   flex: 2;
   font-weight: normal;
   font-size: 15px;
@@ -501,10 +490,10 @@ textarea {
   display: none;
 }
 
-.D-4 > .canopy,
+/* .D-4 > .canopy,
 .D-4 > .card-p {
   display: none;
-}
+} */
 
 .fcb360 {
   background-color: #4053fc;
@@ -519,13 +508,7 @@ textarea {
   display: none;
 }
 
-.card img {
-  width: 48%;
-  border-radius: 8px;
-  padding: 20px;
-}
-
-.lang-styles {
+.lang {
   background-color: #f7f7f9;
   list-style: none;
   display: inline-block;
@@ -553,19 +536,133 @@ textarea {
   display: none;
 }
 
-#show-error {
-  display: none;
+.card.card-pop.popup.desk {
+  height: 90vh;
+  width: 80vw;
+  margin: 5% auto;
 }
 
-.error {
-  color: crimson;
-  background-color: #fff;
-  border-radius: 0.6rem;
-  display: none;
-  font-size: 1.3rem;
-  padding: 0.5rem;
-  text-align: center;
-  animation: show-msg 1s 1;
-  margin-top: -2rem;
-  margin-bottom: 0.4rem;
+.card-content.desk {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  width: 100%;
+
+  /* height: 100%; */
+}
+
+.popup-close-btn {
+  height: 0.8rem;
+  align-self: flex-end;
+  width: 0.8rem;
+  right: 2rem;
+  top: 2.8rem;
+  padding-right: 0.5em;
+}
+
+.card-img .desk {
+  margin-top: 0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.first {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.text-secondary {
+  /* width: 100%; */
+  height: 20rem;
+  padding: 10px;
+}
+
+.second {
+  margin-top: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-button .desk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.reverse {
+  order: 2;
+}
+
+#bigScreen {
+  display: flex;
+  flex-direction: row;
+}
+
+.see-live {
+  color: #396df2;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  transition: background-color 2s;
+}
+
+.see-source {
+  color: #396df2;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  transition: background-color 2s;
+}
+
+.popup-btn {
+  font-size: 12px;
+  text-decoration: none;
+  color: #396df2;
+  border: 0.1rem solid #6070ff;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  transition: all 0.3s;
+  margin: 2rem 0.5rem;
+}
+
+.modal-list {
+  padding-top: 0;
+}
+
+.photo {
+  order: 0;
+}
+
+.modal-img {
+  width: 95%;
+  height: auto;
+  padding-left: 2.5%;
+}
+
+.skills-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  height: 24px;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
