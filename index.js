@@ -24,15 +24,15 @@ navabout.addEventListener('click', () => {
 const cards = [
   {
     id: 1,
-    name: 'Tonic',
-    img: 'images/Snapshoot1.png',
-    imgd: 'images/Snapshoot4.png',
-    companyName: 'CANOPY',
-    job: 'Back End Dev',
-    year: 2015,
-    t: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    name: 'Bulza Festival',
+    img: 'images/FestivalPage_Desk.png',
+    imgd: 'images/FestivalPage_Desk.png',
+    companyName: 'Emi',
+    job: 'Front End Dev',
+    year: 2021,
+    t: 'Bulza Festival is website for an imaginary festival built with HTml & Css',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'This festival page is my first try at building a web page with HTML/CSS & JavaScript.It is the first capstone project in Microverse Curriculum.The festival is fictional ,but the desire to see it coming to life (even just in a website form) motivated me to build it as best I could in the amount of time of 5days.',
     tags: ['html', 'css', 'javaScript'],
     button: 'See Project',
   },
@@ -94,7 +94,7 @@ function init() {
       template.innerHTML = `
     <li class="card ">
     <img class="photoshoot-1" src="${card.img}" alt="My projects snapshot">
-    <img class="photoshoot-D-1 reverse" src="${card.imgd}" alt="">
+    <img class="FestivalPage_Desk reverse" src="${card.imgd}" alt="">
     <div class="card-info ">
       <h3 class="h3-m">${card.name}</h3>
       <ul class="canopy">
@@ -169,9 +169,9 @@ cards.forEach((work) => {
           </ul>
        <div>
           <div class="line"></div>
-          <a href="" class="popup-btn font-f see-live">See Live<span><i
+          <a href="https://myelin0.github.io/Festival-Page/" class="popup-btn font-f see-live">See Live<span><i
                         class="fa fa-external-link"></i></span></a>
-          <a href="" class="popup-btn font-f see-source">See Source<span><i class="fa fa-github"></i></span></a>
+          <a href="https://git@github.com:myelin0/Festival-Page.git" class="popup-btn font-f see-source">See Source<span><i class="fa fa-github"></i></span></a>
        </div>
        </div>
       </div>`;
