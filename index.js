@@ -6,23 +6,10 @@ const navabout = document.querySelector('.ab');
 const navcontact = document.querySelector('.co');
 const ul = document.getElementById('Portfolio');
 
-hamburger.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
-});
-
-closebtn.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
-});
-
-navportal.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
-});
-
-navabout.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
-});
-navcontact.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
+[hamburger, closebtn, navportal, navabout, navcontact].forEach((element) => {
+  element.addEventListener('click', () => {
+    navmenu.classList.toggle('show');
+  });
 });
 
 const cards = [

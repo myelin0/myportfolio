@@ -124,11 +124,6 @@ h5 {
   color: #505f79;
 }
 
-.logo:hover,
-.headline:hover {
-  text-decoration: underline;
-}
-
 .d-grid {
   display: grid;
   grid-template-areas: "first" "second" "third" "fourth";
