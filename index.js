@@ -3,6 +3,7 @@ const closebtn = document.querySelector('.closebtn');
 const navmenu = document.querySelector('.menu-links');
 const navportal = document.querySelector('.po');
 const navabout = document.querySelector('.ab');
+const navcontact = document.querySelector('.co');
 const ul = document.getElementById('Portfolio');
 
 hamburger.addEventListener('click', () => {
@@ -10,15 +11,18 @@ hamburger.addEventListener('click', () => {
 });
 
 closebtn.addEventListener('click', () => {
-  navmenu.style.display = 'none';
+  navmenu.classList.toggle('show');
 });
 
 navportal.addEventListener('click', () => {
-  navmenu.style.display = 'none';
+  navmenu.classList.toggle('show');
 });
 
 navabout.addEventListener('click', () => {
-  navmenu.style.display = 'none';
+  navmenu.classList.toggle('show');
+});
+navcontact.addEventListener('click', () => {
+  navmenu.classList.toggle('show');
 });
 
 const cards = [
