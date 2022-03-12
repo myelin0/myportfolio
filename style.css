@@ -155,6 +155,7 @@ body {
   background-color: white;
   width: 1200px;
   max-width: 80%;
+  height: -webkit-fill-available;
 }
 
 .modal.active {

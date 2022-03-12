@@ -155,12 +155,26 @@ h3 {
   padding-top: 48px;
 }
 
+.canopy-li {
+  list-style: none;
+  color: #344563;
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.canopy {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0.5em;
+}
+
 .common {
   color: #6b778c;
   font-size: 18px;
-  margin-left: 24px;
+  margin-left: 1.5rem;
   font-weight: 400;
-  margin-right: 12px;
+  margin-right: 1rem;
 }
 
 .year {
@@ -660,4 +674,8 @@ textarea {
   justify-content: space-between;
   height: 100%;
   width: 100%;
+}
+
+.modal-detail{
+  padding-left:1.2rem;
 }
