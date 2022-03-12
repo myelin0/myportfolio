@@ -30,10 +30,12 @@ body {
   background-color: white;
   height: 48px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding-left: 24px;
   padding-right: 35px;
+  padding:2rem 1.5rem 0 1.5rem;
+  
 }
 
 .menu-button {
@@ -394,8 +396,7 @@ h4 {
   margin: 10px 8px 0 0;
 }
 
-.social li:hover,
-.menu-button:hover {
+.social li:hover {
   background-color: rgb(63, 16, 192);
 }
 
